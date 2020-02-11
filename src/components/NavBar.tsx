@@ -1,12 +1,12 @@
 import React, { useState } from "react"
 import { withStyles, createStyles, WithStyles } from "@material-ui/styles"
-import svg from './images/logo.svg';
+import svg from '../images/logo.svg';
 import { FaAlignRight } from "react-icons/fa"
-import links from "./constants/links"
+import links from "../constants/links"
 import { Link } from "gatsby"
 import { sizes } from "./utils/sizes"
-import socialIcons from "./constants/socialIcons"
-import * as css from './css/navbar.module.css'
+import socialIcons from "../constants/socialIcons"
+import * as css from '../css/navbar.module.css'
 
 const styles = createStyles({
   navBar: {

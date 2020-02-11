@@ -1,5 +1,5 @@
 import React from "react"
-import * as css from "./css/banner.module.css"
+import * as css from "../css/banner.module.css"
 interface BannerProps {
   title: string
   info?: string

@@ -1,8 +1,8 @@
 import React from "react"
 import Title from "../Title"
-import * as styles from "../css/about.module.css"
-import img from "../images/defaultBcg.jpeg"
-import { btnPrimary } from "../css/layout.module.css"
+import * as styles from "../../css/about.module.css"
+import img from "../../images/defaultBcg.jpeg"
+import { btnPrimary } from "../../css/layout.module.css"
 const About = () => {
   return (
     <section className={styles.about}>

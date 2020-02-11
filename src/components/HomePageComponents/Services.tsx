@@ -1,6 +1,6 @@
 import React from "react"
-import services from "../constants/services"
-import * as styles from "../css/services.module.css"
+import services from "../../constants/services"
+import * as styles from "../../css/services.module.css"
 
 const Services = () => {
   return (

@@ -1,9 +1,9 @@
 import React from "react"
 
-import * as css from "./css/footer.module.css"
-import links from "./constants/links"
+import * as css from "../css/footer.module.css"
+import links from "../constants/links"
 import { Link } from "gatsby"
-import socialIcons from "./constants/socialIcons"
+import socialIcons from "../constants/socialIcons"
 
 const Footer: React.FC = () => {
   return (

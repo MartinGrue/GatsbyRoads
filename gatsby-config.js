@@ -1,19 +1,23 @@
-// /**
-//  * Configure your Gatsby site with this file.
-//  *
-//  * See: https://www.gatsbyjs.org/docs/gatsby-config/
-//  */
+/**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.org/docs/gatsby-config/
+ */
+var path = require("path")
+module.exports = {
+  siteMetadata: {
+    title: "GatsbyRoads",
+    description: "Explore awesome worldwide tours",
+  },
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}${"\\src\\images"}`,
+      },
+    },
+  ],
 
-// module.exports = {
-//   plugins: [
-//     {
-//       resolve: `gatsby-plugin-typescript`,
-//       options: {
-//         isTSX: false, // defaults to false
-//         allExtensions: false, // defaults to false
-//       },
-//     },
-//   ],
-  
-//   /* Your site config here */
-// }
+  /* Your site config here */
+}

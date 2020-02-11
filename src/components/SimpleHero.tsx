@@ -1,5 +1,5 @@
 import React from "react"
-import * as cssLayout from './css/layout.module.css';
+import * as cssLayout from '../css/layout.module.css';
 
 interface SimpleHeroProps {
   children: any

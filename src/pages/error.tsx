@@ -1,9 +1,9 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { error as errorStyle } from "../components/css/error.module.css"
+import { error as errorStyle } from "../css/error.module.css"
 import Banner from "../components/Banner"
 import { Link } from "gatsby"
-import { btnWhite } from "../components/css/layout.module.css"
+import { btnWhite } from "../css/layout.module.css"
 import SimpleHero from "../components/SimpleHero"
 
 const error = () => {
