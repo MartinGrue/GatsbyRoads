@@ -1,0 +1,30 @@
+var path = require("path")
+exports.onCreateWebpackConfig = ({
+  stage,
+  rules,
+  loaders,
+  plugins,
+  actions,
+}) => {
+  actions.setWebpackConfig({
+    module: {
+      rules: [
+        {
+          test: /\.css$/,
+            // include: [path.resolve(__dirname, "not_exist_path")],
+            // include: [path.resolve(__dirname, "src/components/css")],
+          use: [
+            "css-loader",
+            
+            {
+              loader: "typings-for-css-modules-loader",
+              options: {
+                modules: true,
+              },
+            },
+          ],
+        },
+      ],
+    },
+  })
+}

@@ -1,0 +1,22 @@
+@import url(./layout.module.css);
+
+.title {
+  color: var(--mainBlack);
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+}
+.title h4 {
+  text-align: center;
+  letter-spacing: 7px;
+}
+.subTitle {
+  color: var(--primaryColor);
+}
+
+@media (min-width: 576px) {
+  .title span {
+    display: inline-block;
+    margin: 0 0.35rem;
+  }
+}

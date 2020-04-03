@@ -17,6 +17,11 @@ module.exports = {
         path: `${__dirname}${"\\src\\images"}`,
       },
     },
+    `gatsby-plugin-playground`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-transition-link`
+    // `gatsby-plugin-graphql-codegen`,
   ],
 
   /* Your site config here */
